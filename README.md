@@ -7,7 +7,7 @@
 - Model View Intent Architecture - MVI.
 - Clean Architecture approach.
 
-## **Replace your API url with Base_URL in domain:** 
+## **Replace your API URL with BASE_URL in domain file** 
 
 ## **Screen Shots:** 
 screen for product list, news list and product details
