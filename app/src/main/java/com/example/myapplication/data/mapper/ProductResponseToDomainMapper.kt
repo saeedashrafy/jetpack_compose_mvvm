@@ -11,7 +11,7 @@ internal class ProductResponseToDomainMapper : Mapper<ProductsResponse, ProductL
                 id = item.id,
                 nameEn =item.title.split("/").last(),
                 nameFa = item.title.split("/").first(),
-                image = "https://www.youre_base_url.com${item.image}",
+                image = "https://www.your_base_url.com${item.image}",
                 buyPrice = item.buyPrice.substring(0,item.buyPrice.indexOf(".") +2),
                 sellPrice =item.sellPrice.substring(0,item.sellPrice.indexOf(".") +2),
             )
